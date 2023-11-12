@@ -3,8 +3,8 @@
   become: yes
   become_user: decide
   git:
-    repo: 'https://github.com/wadobo/decide.git'
-    dest: /home/decide/decide
+    repo: 'https://github.com/miguelybarra/decideDeploy.git'
+    dest: /home/decideDeploy/decide
     version: master
 
 - name: Python virtualenv
